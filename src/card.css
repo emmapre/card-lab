@@ -1,0 +1,124 @@
+.card {
+  width: 371px;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 20px;
+  position: relative;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  height: 126px;
+  top: 0;
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 82px;
+  margin: 0;
+}
+
+.emoji {
+  font-size: 70px;
+}
+
+.text-div {
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+
+.text-div p {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  width: 311px;
+  height: 50px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  border: none;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+/* .clicked {
+
+}
+
+.clicked:hover {
+
+} */
+
+.lemon {
+  background-color: #8cffba;
+}
+
+.lemon h1 {
+  color: #166f39;
+}
+
+.lemon .text-div {
+  background-color: #cfffe2;
+}
+
+.lemon button {
+  background-color: #fced84;
+}
+
+.rocket {
+  background: #a6cfe2;
+}
+
+.rocket h1 {
+  color: #000;
+}
+
+.rocket button {
+  background-color: #000;
+  color: #ffd600;
+}
+
+.rocket .text-div {
+  background: #c2dce9;
+}
+
+.puppy {
+  background: #eeb200;
+}
+
+.puppy h1 {
+  color: #502f7e;
+}
+
+.puppy button {
+  background-color: #fff;
+  color: #502f7e;
+}
+
+.puppy .text-div {
+  background: #ffe086;
+}

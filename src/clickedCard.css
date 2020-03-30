@@ -1,0 +1,103 @@
+.clicked-card {
+  width: 371px;
+  height: 372px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: 20px;
+  position: relative;
+}
+
+.top-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  height: 50%;
+  transition: all 0.8s ease-in-out;
+}
+
+
+.bottom-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  height: 50%;
+  width: 371px;
+  transition: all 0.8s ease-in-out;
+  position: absolute;
+  bottom: 0;
+}
+
+.top-div:hover{
+  height: 100%;
+}
+
+.top-div:hover + .bottom-div{
+  height:0;
+}
+
+.bottom-div:hover{
+  height: 100%;
+}
+
+.bottom-div:hover + .top-div{
+  height:0%;
+}
+
+
+h1 {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 82px;
+  margin: 0;
+}
+
+.emoji-clicked {
+  font-size: 70px;
+}
+
+
+.lemon .top-div {
+  background-color: #8cffba;
+}
+
+.lemon h1 {
+  color: #166f39;
+}
+
+.lemon .bottom-div {
+  background-color: #cfffe2;
+}
+
+
+.rocket .top-div {
+  background: #a6cfe2;
+}
+
+.rocket h1 {
+  color: #000;
+}
+
+.rocket .bottom-div {
+  background: #c2dce9;
+}
+
+.puppy .top-div {
+  background: #eeb200;
+}
+
+.puppy h1 {
+  color: #502f7e;
+}
+
+
+.puppy .bottom-div {
+  background: #ffe086;
+}
+
+
+
+
